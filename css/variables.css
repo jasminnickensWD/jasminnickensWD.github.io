@@ -1,0 +1,22 @@
+/*We can use CSS Variables that allow us to declare custom properties, that we can then call
+in our other CSS files. Once we figure out a color scheme(or any other preset properties we'd 
+like to use), we can use custom properties to create CSS variables. This aves us time later when
+we want to access a certain color or specific property. */
+
+:root {
+   
+    --lavender: rgb(174, 100, 218);
+    --purple: rgb(182, 69, 163);
+    --pearl: rgba(255, 255, 255, 0.973);
+    --dark-purple: rgb(148, 35, 170);
+
+    --font-one: "'Caveat', cursive";
+    --font-two: "'Oswald', sans-serif";
+    --font-three: "'WindSong', cursive";
+};
+
+.navbar{
+    display: inline-block;
+    text-decoration: var(--lavender);
+}
+

@@ -1,0 +1,20 @@
+#contact{
+    background: var(--pearl);
+    padding: 10px 30px;
+    margin: 0 auto;
+    border: 5px inset var(--dark-purple);
+    border-radius: 5px;
+}
+
+h2{
+    font-family: fantasy;
+    color: var(--purple);
+}
+#fs-frm{
+    font-family: monospace;
+    vertical-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

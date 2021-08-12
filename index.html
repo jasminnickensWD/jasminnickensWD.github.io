@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Place Bootstrap before ALL other stylesheets-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+
+    <!--My Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Oswald:wght@200&family=WindSong:wght@500&display=swap" rel="stylesheet">
+
+    <!--My CSS -->
+    <!--shortcut to a link tag:  'link: (a list drops)' below we selected a css link tag set up-->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Jasmin Anders Portfolio</title>
+  </head>
+
+  <body>
+    <nav class="navbarStrap">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Jasmin Anders</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#">Projects</a>
+                  <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+              </div>
+          </div>
+      </div>
+  </nav>
+  <br>
+  <div class="nav-break">
+  <br/>
+  </div>
+  <br>
+  <header id="landing">
+    <h1>Welcome to my portfolio!</h1>
+    <div class="card">
+      <div class="card-header">
+        <strong>
+        <h5>Wise words to consider:</h5>
+        </strong>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p style="font-family:Verdana, Geneva, Tahoma, sans-serif; color:var(--dark-purple);">"There are three responses to a piece of design. Yes, no, and WOW!"
+            WOW is the one to aim for!
+          </p>
+          <footer class="blockquote-footer" style="font-style: oblique;">Milton Glaser <cite title="Source Title"><a style='color:var(--purple)' href="https://www.vandelaydesign.com/design-quotes/">Source</a></cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </header>
+      <!--Header Section          *landing used for css*-->
+    <section id="section-1">
+      <div class="container-fluid">
+          <div class="container">
+
+            <h1 class="display-4" style="text-align: center">Portfolio Rodeo</h1>
+
+            <p class="lead" style="text-align: center" > Welcome to my personal project portfolio!</p>
+
+            <p style="text-align: center" >Get ready for a ride through my creative diary.</p>            
+          </div>
+      </div>
+    </section>
+    
+<div class="intro-break">
+  <br/>
+</div>
+<!-- About Me -->
+<section class="container about-me" style="text-align: center">
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="profilePhoto">
+      <img src="./assets/about-Img.jpg" class="img-thumbnail" alt="..." style="border:groove 10px var(--dark-purple); border-radius:15px">
+    </div>
+    <h1 class="display-2" >About Moi</h1>
+    <p class="lead"><u>Allow me to introduce myself,<em>my name is <strong>Jasmin</strong></em>.</u></p>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          My Skills
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          A Little About Me
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          My Mission
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">I have big plans for my future in coding. including  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="aboutBreak">
+  <br>
+</div>
+
+      <!--Projects-->
+      <!--Bootstrap grid system:
+        -12 columns
+        -row &column classes    
+    -->
+    <section id="projects">
+        <h1 id="projectTag" style="text-align: center">Projects</h1>
+        <div class="container">
+          <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+            <div class="col">
+              <div class="p-3 border bg-light">CSS Creature</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Static Layout</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">API #1</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">API #2</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Blue Badge</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Red Badge</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Row column</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Row column</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Row column</div>
+            </div>
+            <div class="col">
+              <div class="p-3 border bg-light">Row column</div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    
+
+    <!--Contact Section-->    
+    <!--Our contact form is powered by Formspree, its a free email service for HTML forms, 
+        that reroutes any form submissions to the provided email address. This allows us 
+    to use form submissions on our portfolio without using any JS to post/route the form to us
+    (Formspree doe that for us!)-->
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+           <!-- <div class="row">-->
+                <!--<div class="col-12">-->
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mzbykppk" method="post">
+                        <fieldset id="fs-frm-inputs">
+                          <label for="full-name">Name:</label>
+                          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                          <div class="form-floating mb-3">
+
+                            <label for="floatingInput">Email address</label>
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            
+                          </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          </li>
+                          <li>
+                          <label for="message">Message:</label>
+                          <textarea rows="5" name="message" id="message" placeholder="Let's connect and network! Leave your message here and I'll respond accordingly." required=""></textarea>
+                          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                          </li>
+                        </ul>
+                      </fieldset>
+                        <input type="submit" value="Submit">
+                      </form>
+            
+               <!-- </div>-->
+            <!--</div>-->
+        </div>
+    </section>
+
+<!--Footer-->
+<section class="footer-section">
+  <footer class="conainer">
+    <div class="footer-badges">
+
+    </div>
+
+  </footer>
+
+</section>
+
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

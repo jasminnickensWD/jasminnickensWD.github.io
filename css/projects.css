@@ -1,0 +1,81 @@
+#projects{
+    font-family: var(--font-two);
+    text-align: center;
+    color:lavenderblush;
+    background: var(--purple);
+    margin: 10px;
+
+    border: groove 5px #eee;
+    padding: 20px 20px
+    
+}
+
+.container{
+    margin:0;
+}
+
+.col-4{
+    border: honeydew 5px solid;
+
+}
+
+
+/*
+
+BACKUP PROJECT FORMAT
+
+<div class="container">
+            <div class="row-one">
+                <div class="col-4">
+                    <img style="border:5px inset rgba(252, 252, 252, 0.479);" src="../CSSCreature/" class="card-img-one" alt="...">
+                    <div class="card-body card-one">
+                      <h5 class="card-title">CSS Creature</h5>
+                      <p class="card-text">Using strictly HTML and CSS basic properties, I put together a cute little 'Nucleus Monster".</p>
+                      <a href="https://codepen.io/jasminnickenswd/pen/zYwzVwm" target="blank" style="background:rgba(219, 219, 219, 0.705);border: 2px solid var(--dark-purple);" class="btn btn-primary">Checkout my CSS Creature Codepen</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                  <img src="../CSSCreature/" class="card-img-two" alt="...">
+                  <div class="card-body card-two">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">Using strictly HTML and CSS basic properties, I put together a cute little 'Nucleus Monster".</p>
+                    <a href="#" target="blank" style="background:rgba(219, 219, 219, 0.705);border: 2px solid var(--dark-purple);" class="btn btn-primary">Checkout my CSS Creature Codepen</a>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <img src="../CSSCreature/" class="card-img-three" alt="...">
+                  <div class="card-body card-three">
+                    <h5 class="card-title">CSS Creature</h5>
+                    <p class="card-text">Using strictly HTML and CSS basic properties, I put together a cute little 'Nucleus Monster".</p>
+                    <a href="https://codepen.io/jasminnickenswd/pen/zYwzVwm" target="blank" style="background:rgba(219, 219, 219, 0.705);border: 2px solid var(--dark-purple);" class="btn btn-primary">Checkout my CSS Creature Codepen</a>
+                  </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row-two">
+              <div class="col-4">
+                  <img style="border:5px inset rgba(252, 252, 252, 0.479);" src="../CSSCreature/" class="card-img-four" alt="...">
+                  <div class="card-body card-four">
+                    <h5 class="card-title">CSS Creature</h5>
+                    <p class="card-text">Using strictly HTML and CSS basic properties, I put together a cute little 'Nucleus Monster".</p>
+                    <a href="#" target="blank" style="background:rgba(219, 219, 219, 0.705);border: 2px solid var(--dark-purple);" class="btn btn-primary">Checkout my CSS Creature Codepen</a>
+                  </div>
+              </div>
+              <div class="col-4">
+                <img src="../CSSCreature/" class="card-img-five" alt="...">
+                <div class="card-body card-five">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">Using strictly HTML and CSS basic properties, I put together a cute little 'Nucleus Monster".</p>
+                  <a href="#" target="blank" style="background:rgba(219, 219, 219, 0.705);border: 2px solid var(--dark-purple);" class="btn btn-primary">Checkout my CSS Creature Codepen</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <img src="../CSSCreature/" class="card-img-six" alt="...">
+                <div class="card-body card-six">
+                  <h5 class="card-title">CSS Creature</h5>
+                  <p class="card-text">Using strictly HTML and CSS basic properties, I put together a cute little 'Nucleus Monster".</p>
+                  <a href="https://codepen.io/jasminnickenswd/pen/zYwzVwm" target="blank" style="background:rgba(219, 219, 219, 0.705);border: 2px solid var(--dark-purple);" class="btn btn-primary">Checkout my CSS Creature Codepen</a>
+                </div>
+              </div>
+          </div>
+        </div>
