@@ -1,5 +1,11 @@
-.navbar-brand{
-    
+.container-fluid#nav-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*  .navbar-brand{
+    font-family: var(--font-one);
     font: size 175px;
     background: var(--pearl);
     border: inset 5px var(--purple);
@@ -12,9 +18,12 @@
 
 .navbar-nav{
     font: size 175px;
-    background: var(--pearl);
+    background: var(--purple);
     border: inset 5px var(--purple);
     font-style: var(--font-two);
     
+}*/
+nav a:hover {
+    color:var(--dark-purple)
 }
 

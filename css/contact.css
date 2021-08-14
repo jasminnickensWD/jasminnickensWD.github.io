@@ -6,15 +6,25 @@
     border-radius: 5px;
 }
 
-h2{
+#contact-title h2{
     font-family: fantasy;
     color: var(--purple);
 }
-#fs-frm{
+/*#fs-frm{
     font-family: monospace;
     vertical-align: initial;
     display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.container#contact-flex{
+    display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+

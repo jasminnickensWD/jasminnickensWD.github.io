@@ -1,15 +1,19 @@
-*{
-    margin: 0;
+/*{
+    margin: 0 a;
     padding: 0;
-}
+}*/
     body{
-   /* background: url("../assets/portfolioPhoto1.jpg");*/
-    /*background-size: cover;*/
-    height: 100%;
-    font-family: var(--font-two);
-    font-size: 17px;
+    margin:0;
+    background-color: var(--purple);
+    background-size: cover;
+    height: 100vh;
     color: #ab46d3;
     line-height: 1.6;
+}
+
+.container{
+    display: flex;
+    margin:0 auto;
 }
 
 

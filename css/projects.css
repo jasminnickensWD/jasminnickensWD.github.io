@@ -19,6 +19,12 @@
 
 }
 
+.p-3{
+    font-family: var(--font-two);
+    text-align: center;
+    color: var(--lavender);
+}
+
 
 /*
 

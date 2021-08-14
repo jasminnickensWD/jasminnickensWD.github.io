@@ -9,12 +9,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding:0 20px;
+    padding:0px;
+    margin-top: 0px;
 
 }
 
 #landing h3{
     font-size:50px;
+}
+
+.card{
+    width:75vh;
 }
 
 .card-body{
@@ -23,7 +28,7 @@
     color: var(--pearl);
     border: var(--dark-purple) 1px solid;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 1px;
 
 }
 

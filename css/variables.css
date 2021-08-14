@@ -5,18 +5,16 @@ we want to access a certain color or specific property. */
 
 :root {
    
-    --lavender: rgb(174, 100, 218);
-    --purple: rgb(182, 69, 163);
+    --lavender: rgb(182,121,182);
+    --purple: rgb(155,82,161);
     --pearl: rgba(255, 255, 255, 0.973);
-    --dark-purple: rgb(148, 35, 170);
+    --pearl-purple: rgba(209, 42, 209, 0.87);
+    --dark-purple: rgb(110,37,126);
 
-    --font-one: "'Caveat', cursive";
-    --font-two: "'Oswald', sans-serif";
-    --font-three: "'WindSong', cursive";
+    --font-one: 'Caveat', cursive;
+    --font-two: 'Oswald', sans-serif;
+    --font-three: 'WindSong', cursive;
 };
 
-.navbar{
-    display: inline-block;
-    text-decoration: var(--lavender);
-}
+
 

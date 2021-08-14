@@ -12,17 +12,27 @@
     color:lavenderblush;
     background: var(--purple);
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 10px 10px 20px 20px;
     border-radius: 5px;
+    
     
 }
 
+.container#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0px;
+    margin-top: 0px;
+}
 .img-thumbnail{
     position: relative;
 }
 
-.display-2 h1{
-    font-family: var(--font-one);
+#about-meTitle {
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 /*
