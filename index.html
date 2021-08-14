@@ -101,31 +101,31 @@
 
 <!-- About Me -->
 <section class="screen-2">
-    <div class="container" id="profilePhoto"style="border-radius: 5px var(--lavender) inset; align-self: center;display: flex; flex-direction: row-reverse; justify-content: center; background-color: var(--pearl);padding:10px 10px;">
-      <img src="./assets/about-Img.jpg" class="img-thumbnail" alt="Jasmin Nickens" style=" width:50vh; height:50vh; border:groove 10px var(--dark-purple); border-radius:15px; align-items: center;">
-
+    <div class="container" id="profilePhoto"style="border: 5px var(--lavender) inset; border-radius:5px; display:flex; flex-direction:column; align-items:center; background-color: var(--pearl);padding:10px 10px;">
+      
+        <img src="./assets/about-Img.jpg" class="img-thumbnail" alt="..." style=" width:50vh; height:50vh; border:groove 10px var(--dark-purple); border-radius:15px; align-items: center;">
    
 
-    <div class="about-me accordion accordion-flush" id="accordionFlushExample">
+        <div class="about-me accordion accordion-flush" id="accordionFlushExample">
     
-    <h1 id="about-meTitle" class="display-4" style=" text-align: center">About Moi</h1>
-    <hr>
-    <h4 class="display-6" id="under-head" style="text-align: center;">Allow me to introduce myself, my name is <em><strong>Jasmin</strong></em>.</h4>
-    <br>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
+        <h1 id="about-meTitle" class="display-4" style=" text-align: center">About Moi</h1>
+        <hr>
+        <h4 class="display-6" id="under-head" style="text-align: center;">Allow me to introduce myself, my name is <em><strong>Jasmin</strong></em>.</h4>
+        <br>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
          <h1 id="display-3">My Mission</h1>
         </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
         <div class="accordion-body" style="color: var(--pearl);">I have big plans for my future in coding. I plan on expanding my portfolio to include 
           client side web applications tailored to fulfill my clients needs. I use HTML, CSS, and JavaScript among other tools to create or modify 
           products that will satisfy the needs of clients. Using and creation code allows me to deploy applications in a cross-platform, cross-browser environment.
           I plan to eventually begin helping all sorts of businesses update their current or new websites to meet modern web standards.
                      
-           </div>
-    </div>
+        </div>
+       </div>
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingTwo">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -152,7 +152,7 @@
       </div>
       </div>
     </div>
-  </div>
+   </div>
  </div>
 </section>
 
@@ -169,68 +169,88 @@
     -->
     <section id="projects">
         
-          <div class="container" id="project-container" style="display: flex; flex-direction: column; justify-content: center; background-color: var(--pearl);padding:10px 10px;">
-          <div class="project-head" style="text-align: center;">
-            <h1 id="projectTag" style="text-align: center">Projects</h1>
+      <div class="container" id="project-container" style="display: flex; flex-direction: column; justify-content: center; background-color: var(--pearl);">
+          <div class="project-head">
+            <h1 id="projectTag" style="text-align: center;color: var(--dark-purple);">Projects</h1>
           </div>
           
           <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="card css-card">
-                <a href="https://codepen.io/jasminnickenswd/pen/zYwzVwm" id="CSSCreature-link">
-                  <img src="./assets/css-creature.zip" class="card-img-top" alt="...">
-                </a>
+                
+                  <img src="./assets/css-creature.zip" class="card-img-top" alt="CSS Creature">
+               
                 <div class="card-body">
                   <h5 class="card-title">
-                    CSS Creature: Nucleus Monster
+                    <a href="https://codepen.io/jasminnickenswd/pen/zYwzVwm" id="CSSCreature-link">
+                      CSS Creature: Nucleus Monster
+                    </a>
                   </h5>
-                  <p class="card-text">This was my very first project using <strong>CSS</strong> to style my <strong>HTML</strong> file.</p>
+                  <p class="card-text" style="color:var(--dark-purple);">This was my very first project using <strong>CSS</strong> to style my <strong>HTML</strong> file.</p>
                 </div>
               </div>
             </div>
           
             <div class="col">
               <div class="card static-card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="../staticLayout/index.html" class="card-img-top" alt="Static Layout">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">
+                    <a href="../staticLayout/index.html" style="color: var(--lavender);">
+                    Static Layout</a>
+                    <p class="card-text" style="color: var(--purple);">
+                      This is an early look at my mock creation of <a href="https://www.kastapp.co/index.html" style="color: var(--purple);">Kast App</a>
+                    </p>
+                  </h5>
+                    
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card api-card1">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="..." class="card-img-top" alt="Pokemon API">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
+                  <h5 class="card-title">
+                    <a href="" id="api-link1" style="color: var(--lavender);"></a>
+                    Pokemon API
+                  <p class="card-text" style="color: var(--purple);">Here is an API I created using API information from <a href="https://pokeapi.co/"></a>PokeAPI.</h5>
+              </div>
               </div>
             </div>
             <div class="col">
               <div class="card api-card2">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="..." class="card-img-top" alt="Calendar API">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">
+                    <a href="" id="api-link2" style="color: var(--lavender);">
+                      Calendar API
+                    </a>
+                  <p class="card-text"" style="color: var(--purple);">This is an API I fetched from using JavaScript asychronous methods.
+                     By using this code I was able to grab information from the API and 
+                     display it onto my HTML document. This is deployed to Firebase.</p>
+                  </h5>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card blue-bagde-card">
-                <img src="" class="card-img-top" alt="...">
+                <img src="" class="card-img-top" alt="Blue Badge">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">
+                    <a href="" style="color: var(--lavender);"> Blue Badge TBA</h5>
+                  <p class="card-text">This is the next badge for me to recieve.</p></a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card red-badge-card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <img src="..." class="card-img-top" alt="Red Badge">
+                <div class="card-body" style="color: var(--purple);">
+                  <h5 class="card-title">
+                    <a href="" style="color: var(--lavender);">
+                    Red Badge TBA
+                    <p class="card-text">This is the final badge for me to recieve.</p></h5>
+                  </a>
                 </div>
               </div>
             </div>          
